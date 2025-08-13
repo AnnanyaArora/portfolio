@@ -1,5 +1,6 @@
 import React from "react";
-
+import cms from "../../assets/education_logo/CMS_logo.jpg";
+import kiit from "../../assets/education_logo/kiit_logo.png";
 const education = [
  
  
@@ -7,21 +8,21 @@ const education = [
     level: "B.Tech in Computer Science",
     institute: "KALINGA INSTITUTE OF NATIONAL TECHNOLOGY",
     year: "2026",
-    logo: "src/assets/education_logo/kiit_logo.png",
+    logo: kiit,
     link: "#"
   },
    {
     level: "Higher Secondary (Class 12)",
     institute: "City Montessori School",
     year: "2021",
-    logo: "src/assets/education_logo/CMS_logo.jpg",
+    logo: cms,
     link: "#"
   },
    {
     level: "High School (Class 10)",
     institute: "City Montessori School",
     year: "2019",
-    logo:"src/assets/education_logo/CMS_logo.jpg",
+    logo:cms,
     link: "#"
   }
 ];
