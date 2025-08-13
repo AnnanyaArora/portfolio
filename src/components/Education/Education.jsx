@@ -1,6 +1,6 @@
 import React from "react";
-import cms from /src/assets/education_logo/CMS_logo.jpg;
-
+import cms from "../../assets/education_logo/CMS_logo.jpg";
+import kiit from "../../assets/education_logo/kiit_logo.jpg";
 const education = [
  
  
@@ -8,7 +8,7 @@ const education = [
     level: "B.Tech in Computer Science",
     institute: "KALINGA INSTITUTE OF NATIONAL TECHNOLOGY",
     year: "2026",
-    logo: "src/assets/education_logo/kiit_logo.png",
+    logo: kiit,
     link: "#"
   },
    {
