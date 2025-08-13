@@ -95,9 +95,6 @@ const Projects = () => {
           </div>
         ))}
       </div>
-      <div className="mt-8 flex justify-center"><a href="#education" 
-      className="px-6 py-3 bg-blue-500 text-white rounded-full hover:bg-blue-600 transition">
-        Education</a></div>
     </section>
   );
 };
