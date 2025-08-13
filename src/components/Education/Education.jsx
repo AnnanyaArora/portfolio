@@ -21,7 +21,7 @@ const education = [
     level: "High School (Class 10)",
     institute: "City Montessori School",
     year: "2019",
-    logo: "src/assets/education_logo/CMS_logo.jpg",
+    logo:"src/assets/education_logo/CMS_logo.jpg",
     link: "#"
   }
 ];
