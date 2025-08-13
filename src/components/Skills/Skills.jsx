@@ -1,4 +1,6 @@
 import React from "react";
+import { motion } from "framer-motion";
+
 import {
   SiJavascript, SiHtml5, SiCss3, SiSpringboot,
   SiReact, SiTailwindcss, SiMongodb, SiMysql
@@ -26,6 +28,17 @@ const Skills = () => {
   return (
     <section  id="Skills" 
     className="min-h-screen bg-white dark:bg-gray-900 text-gray-800 dark:text-white py-12 px-6">
+       {/* 🔵 Animated Background Shapes */}
+      <motion.div
+        className="absolute top-[-50px] left-[-50px] w-72 h-72 bg-blue-400 rounded-full blur-3xl opacity-30"
+        animate={{ x: [0, 50, 0], y: [0, 50, 0] }}
+        transition={{ duration: 8, repeat: Infinity }}
+      />
+      <motion.div
+        className="absolute bottom-[-50px] right-[-50px] w-72 h-72 bg-purple-500 rounded-full blur-3xl opacity-30"
+        animate={{ x: [0, -50, 0], y: [0, -50, 0] }}
+        transition={{ duration: 8, repeat: Infinity }}
+      />
       <h2 className="text-4xl font-bold mb-10 text-center">Skills</h2>
 
       {/* Languages Section */}
