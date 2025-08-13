@@ -2,6 +2,18 @@ import React, { useState } from "react";
 import { FaArrowUp, FaArrowDown, FaGithub } from "react-icons/fa";
 import { BiLinkExternal } from "react-icons/bi";
 import { motion } from "framer-motion";
+import amazon from "../../assets/project_img/amazon.png";
+import rock from "../../assets/project_img/rock.png";
+import todo from "../../assets/project_img/todo.png";
+import tick from "../../assets/project_img/tick.png";
+import weather from "../../assets/project_img/weather.png";
+import resume from "../../assets/project_img/resume.png";
+import portfolio from "../../assets/project_img/portfolio.png";
+import jobtracker from "../../assets/project_img/jobtracker.png";
+import brick from "../../assets/project_img/brick.png";
+
+
+
 
 const projects = [
    {
@@ -11,7 +23,7 @@ const projects = [
     tech: ["React", "Tailwind"],
     github: "https://github.com/AnnanyaArora/portfolio",
     live: "#",
-    image: "src/assets/project_img/portfolio.png",
+    image: portfolio,
   },
   {
     title: "Smart Job Tracker",
@@ -20,7 +32,7 @@ const projects = [
     tech: ["React", "Tailwind", "Spring Boot"],
     github: "https://github.com/AnnanyaArora/jobtracker-frontend",
     live: "https://jobtracker-frontend07.netlify.app/",
-    image: "src/assets/project_img/jobtracker.png",
+    image: jobtracker,
   },
  
   {
@@ -30,7 +42,7 @@ const projects = [
     tech: ["HTML","CSS"],
     github: "https://github.com/AnnanyaArora/resume",
     live: "https://resumeannanya.netlify.app/",
-    image: "src/assets/project_img/resume.png",
+    image: resume,
   },
   {
     title: "Amazon Clone",
@@ -39,7 +51,7 @@ const projects = [
     tech: ["React", "Firebase", "Tailwind"],
     github: "https://github.com/AnnanyaArora/Amazon-Clone",
     live: "https://amazon-clone-done.netlify.app/",
-    image: "src/assets/project_img/amazon.png",
+    image: amazon,
   },
   {
     title: "Rock-Paper-Scissors",
@@ -48,7 +60,7 @@ const projects = [
     tech: ["HTML","CSS","JAVASCRIPT"],
     github: "https://github.com/AnnanyaArora/rock-paper-scissors",
     live: "#",
-    image: "src/assets/project_img/rock.png",
+    image: rock,
   },
   {
     title: "To-Do List",
@@ -57,7 +69,7 @@ const projects = [
     tech: ["HTML","CSS","JAVASCRIPT"],
     github: "https://github.com/AnnanyaArora/to-do-list",
     live: "#",
-    image: "src/assets/project_img/todo.png",
+    image: todo,
   },
   {
     title: "Tic-Tac-Toe",
@@ -66,7 +78,7 @@ const projects = [
     tech: ["HTML","CSS","JAVASCRIPT"],
     github: "https://github.com/AnnanyaArora/tic-tac-toe",
     live: "#",
-    image: "src/assets/project_img/tick.png",
+    image: tick,
   },
   {
     title: "Weather App",
@@ -75,7 +87,7 @@ const projects = [
     tech: ["React", "OpenWeather API"],
     github: "https://github.com/AnnanyaArora/weather-dashboard",
     live: "https://dapper-mochi-4db37f.netlify.app/",
-    image: "src/assets/project_img/weather.png",
+    image: weather
   },
   {
     title: "Brick Breaker Game",
@@ -84,7 +96,7 @@ const projects = [
     tech: ["Java", "Swing"],
     github: "https://github.com/AnnanyaArora/brick-breaker",
     live: "#",
-    image: "src/assets/project_img/brick.png",
+    image: brick,
   },
 ];
 
