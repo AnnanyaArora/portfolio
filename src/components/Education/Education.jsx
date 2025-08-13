@@ -7,21 +7,21 @@ const education = [
     level: "B.Tech in Computer Science",
     institute: "KALINGA INSTITUTE OF NATIONAL TECHNOLOGY",
     year: "2026",
-    logo: "/education_logo/kiit_logo.png",
+    logo: "src/assets/education_logo/kiit_logo.png",
     link: "#"
   },
    {
     level: "Higher Secondary (Class 12)",
     institute: "City Montessori School",
     year: "2021",
-    logo: "/education_logo/CMS_logo.jpg",
+    logo: "src/assets/education_logo/CMS_logo.jpg",
     link: "#"
   },
    {
     level: "High School (Class 10)",
     institute: "City Montessori School",
     year: "2019",
-    logo:"/education_logo/CMS_logo.jpg",
+    logo:"src/assets/education_logo/CMS_logo.jpg",
     link: "#"
   }
 ];
