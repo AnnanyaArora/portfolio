@@ -1,6 +1,6 @@
 import React from "react";
 import cms from "../../assets/education_logo/CMS_logo.jpg";
-import kiit from "../../assets/education_logo/kiit_logo.jpg";
+import kiit from "../../assets/education_logo/kiit_logo.png";
 const education = [
  
  
